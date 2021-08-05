@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  background: #fff;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, Times New Roman, sans-serif;
+}
+body {
+  font-size: 14px;
+  color: #48576a;
+  -webkit-font-smoothing: antialiased;
+}
+input, hr{
+  border: 0;
+}
+em,i {
+  font-style: normal;
+}
+ul,li,a{
+    list-style:none;
+    font-style: normal;
+    text-decoration: none;
+}
+a, button {
+  outline: none;
+  outline-offset: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a:focus, button:focus, .btn:focus, a:active, button:active, .btn:active, a.active, button.active, .btn.active,input,input:focus {
+  outline: none;
+  outline-offset: 0;
+}
+em,i{
+    font-style: normal;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+input:focus::-webkit-input-placeholder{
+  color: transparent;
+}
+input:focus::-moz-placeholder{
+  color: transparent;
+}
+input:focus:-moz-placeholder{
+  color: transparent;
+}
+input:focus:-ms-input-placeholder{
+  color: transparent;
+}
+#app {
+  height: 100%;
+}
+/* 清除浮动样式 */
+.clearfix:after{
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfix{
+  zoom:1;
+}
+
+.cke_screen_reader_only {
+  height: 0px !important;
+  width: 0px !important;
+}
+
+/* 滚动条样式 */
+.self-scrollbar::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.self-scrollbar::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #fff;
+}
+
+.self-scrollbar::-webkit-scrollbar-thumb
+{
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #DEDFE1;
+}
