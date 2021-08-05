@@ -225,8 +225,8 @@ html, body {
 /*# sourceMappingURL=style.css.map */
 
 .demo-cube .cube-inner.right {
-  right: 30%;
-  left: auto;
+  right: 30% !important;
+  left: auto !important;
 }
 
 
